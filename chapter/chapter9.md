@@ -1,7 +1,7 @@
 # Chapter 9 On-policy Prediction with Approximation
 
-这一章提出参数化的值函数，写作$\hat { v } ( s , \mathbf { w } ) \approx v _ { \pi } ( s )$，其中参数大小远远小于状态空间大小，从而满足泛化要求。当改变某个状态的值函数时，其他状态的值函数可能也会随之变化。
-
+这一章提出参数化的值函数，写作 $\hat{v}(s,\mathbf{w})\approx v_{\pi}(s)$，其中参数大小远远小于状态空间大小，从而满足泛化要求。当改变某个状态的值函数时，其他状态的值函数可能也会随之变化。
+$x^2$
 然而，对于部分可观察的问题而言，函数逼近的方法不能使用过去观察到的记忆增加状态表示。
 
 ## 9.1 Value-function Approximation
